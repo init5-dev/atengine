@@ -106,7 +106,8 @@ TOP_P={}
 
 
 if __name__ == '__main__':
-	chat = AtChat("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")
+	api_key = 'Tu API key de Open AI' 
+	chat = AtChat(api_key)
 
 	while True:
 		prompt = input('Yo: ')
